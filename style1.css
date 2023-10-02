@@ -1,0 +1,41 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+</style>
+
+*{padding: 0px; margin: 0px;}
+
+.banner{
+    background-image: url('among.jpg');
+    background-color: violet;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.banner h2{
+    color: #472C1B;
+    text-shadow: 1px 1px black;
+    font-family: 'Young Serif', serif;
+}
+
+.banner h2 span{
+    color: #FFD166;
+    font-family: 'Young Serif', serif;
+    text-shadow: 1px 1px black;
+}
+
+.banner p{
+    color: white;
+    text-shadow: 1px 1px black;
+    margin-bottom: 20px;
+}
+
+.banner a{
+    padding: 10px;
+    text-decoration: none;
+    background-color: #FFD166;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Young Serif', serif;
+}
+

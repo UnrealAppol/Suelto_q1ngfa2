@@ -1,0 +1,31 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	}
+	#navbar{
+	border: 1px solid white;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	background-color: black;
+	}
+	#links{
+		display: inline;
+	}
+	#navbar #links a{
+		font-family: 'Courier New', Courier, monospace;
+		font-weight: 600;
+		text-decoration: none;
+		padding: 5px;
+		margin: 5px;
+		border: 1px solid black;
+		opacity: .70;
+		transition: 0.2s;
+	}
+	#navbar #links a:hover{opacity: 1; transition: 0.5s;}
+	#yt{background-color: red;color: black;}
+	#fb{background-color: darkblue;color: white;}
+	#dc{background-color: blue;color: white;}
+	#x{background-color: aquamarine;color: black;}
+	#rd{background-color: orangered;color: black;}
+	.rounded{ border-radius: 5px;}
